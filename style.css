@@ -1,0 +1,1176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+
+}
+body{
+    background-color: rgb(20, 17, 30);
+    overflow-x:none;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(21, 19, 30);
+    border-bottom: .05px solid rgb(117, 207, 218);
+
+}
+.left-container > h1{
+    font-size: 2.5rem;
+    color: aqua;
+}
+.left h1 span{
+    color: aqua;
+}
+.right-container ul{
+display: flex;
+gap: 3em;
+align-items: center;
+}
+.right-container ul .btn {
+display: none;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.right-container ul li{
+    list-style: none;
+}
+.right-container a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 1.4em;
+    font-weight: 700;
+
+}
+.right-container a:hover{
+    cursor: pointer;
+   color: rgb(255, 255, 255);
+   text-decoration: underline;
+   text-decoration-thickness: 3px;
+}
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    margin-top: 7%;
+    padding: 10px 5vw 0px 20px;
+}
+.left{
+    width: 40%;
+    margin-left: 6em;
+    padding: 1.2em;
+    padding-top: 5rem;
+    /* background-color: aquamarine; */
+    color: aliceblue;
+}
+
+.left .hello{
+    font-size: 2em;
+    font-weight: 700;
+}
+.left .name{
+font-size: 2.5em;
+font-weight: 800;
+}
+.left .typer{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.info-personal{
+    font-size: 1.18em;
+    margin-top: 1em;
+}
+.social-media{
+    
+    position: absolute;
+
+    top: 41.2vh;
+    left: 5vw;
+}
+.social-media i{
+color: aqua;
+text-align: center;
+padding-top: 5px;
+margin-top: 10px;
+font-size: 1.2em;
+}
+.social-media i:hover{
+    /* box-shadow: 0px 0px 3px aqua; */
+    filter: drop-shadow(0px 0px 15px rgb(60, 204, 182));
+    cursor: pointer;
+}
+.image{
+    /* width: 350px;
+    height: 350px;
+    border-radius: 50%; */
+}
+.home-container .right img{
+    height: 350px;
+    width: 350px;
+    border: 10px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 55px 1px aqua;
+    filter: drop-shadow(0px 0px 5px aqua);
+}
+.left .btn{
+    margin:1.5em 0px 0px 1.5em;
+background-color: aqua;
+width: 20vw;
+height:50px;
+border-radius: 30px;
+border: none;
+outline: none;
+font-size: 1.5em;
+font-weight: 700;
+cursor: pointer;
+}
+.left .btn:hover{
+    box-shadow: 0px 0px 30px 2px rgb(112, 193, 191);
+}
+.left .btn:active{
+    transform: scale(1.02);
+}
+
+
+
+
+/* skill sections */
+
+.skill-container {
+    padding: 3em 3em 1em 5em;
+}
+.skill-container img{
+    height: 60vh;
+    /* background-color: aquamarine; */
+}
+.heading-skill{
+    /* height: 48px; */
+    /* background-color: aqua; */
+    /* width: 35%; */
+    border-top-right-radius:50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    color: aqua;
+    font-size: 1.8em;
+    text-decoration: underline;
+    margin-bottom: 2em;
+
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 5em;
+
+}
+.span{
+    border-radius: 5px;
+width: 35vw;
+height: 5px;
+/* background: rgb(0,212,255); */
+background: linear-gradient(90deg, rgba(0,212,255,1) 99%, rgba(145,229,246,1) 99%, rgb(255, 255, 255) 100%);
+}
+.css{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 90%, rgba(145,229,246,1) 90%, rgb(221, 221, 226) 100%);
+}
+.javascript{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 85%, rgba(145,229,246,1) 85%, rgb(247, 247, 247) 100%);
+}
+.react{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 80%, rgba(145,229,246,1) 80%, rgb(221, 221, 226) 100%);
+}
+.github{
+        background: linear-gradient(90deg, rgba(0,212,255,1) 90%, rgba(145,229,246,1) 90%, rgb(250, 250, 250) 100%);
+    
+}
+
+
+
+     /* about css  */
+   .about-container h1{
+        text-align: center;
+        color: aqua;
+        font-size: 4em;
+     }
+     .about-info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em 2em 2em 2em;
+     }
+     .about-left{
+        width: 22%;
+        /* background-color: #fff; */
+     }
+     .about-right{
+        width: 78%;
+        /* background-color: rgb(120, 149, 149); */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 5em;
+        padding-right: 3em;
+     }
+.about-left img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0px 0px 20px 5px aqua;
+}
+.about-info2{
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-direction: column; 
+   width: 50%;
+   padding: 20px 20px 10px 40px;
+   color: #fff;
+   box-shadow: 0px 0px 8px gray,0px 0px 2px aqua;
+   border-radius: 5px;
+   height: 40vh;
+   flex-wrap: nowrap;
+}
+.about-info2 p{
+    font-size: 1.2em;
+}
+.about-info2 h1{
+    font-size: 2.5em;
+}
+.personal-info{
+    width:30vw;
+    height: 40vh;
+    box-shadow: 0px 0px 8px gray,0px 0px 2px aqua;
+    border-radius: 5px;
+    padding: 20px;
+    
+
+}
+.personal-info h1{
+    font-size: 2.5em;
+}
+.personal-info p{
+color: #fff;
+font-size: 1.2em;
+
+}
+.personal-info .per{
+    padding-left: 10%;
+}
+
+
+
+
+/* projects  */
+
+
+
+
+.projects-container h1{
+    color: aqua;
+    font-size: 3em;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    color: #fff;
+    padding: 20px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.pro-left img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+.projects2{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.projects2 .pro-left2{
+color: #fff;
+}
+.projects2 .pro-right2 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px aqua;
+}
+.pro-right2{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.pro-left{
+    width: 450px;
+    height: 301px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px aqua;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+align-items: center;
+
+}
+.btns-url {
+    display: flex;
+    gap: 30px;
+}
+.btns-url button{
+background-color: transparent;
+color: aqua;
+width: 10vw;
+height: 50px;
+border-radius: 8px;
+border: 1px solid aqua;
+font-size: 1.1em;
+padding: 10px;
+cursor: pointer;
+}
+.btns-url button:hover{
+    color: #000000;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* contect css */
+.contect-us .heading-contect h1{
+    text-align: center;
+    color: aqua;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.contect-us-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5em 3em 5em;
+}
+.contect-me{
+    width: 30vw;
+    height: 45vh;
+    /* background-color: aquamarine; */
+    padding: 1.5em;
+    border-radius: 8px;
+    border: 2px solid aqua;
+    color: white;
+    padding-top: 1em;
+}
+.contect-me h2{
+    font-size: 1.4em;
+    margin-bottom: .5em;
+}
+.contect-me h2 i{
+    margin-right: 1em;
+    color: aqua;
+}
+.contect-me h2 i:hover{
+      filter: drop-shadow(0px 0px 15px #fff);
+      background: transparent;
+      cursor: pointer;
+}
+.icon-contect{
+    display: flex;
+    gap: 1.4em;
+    margin-top: 2em;
+}
+.icon-contect .icon{
+    color: aqua;
+    font-size: 1.9em;
+    
+}
+.icon-contect .icon:hover{
+    /* filter: 0px 0px 8px 0px rgb(228, 236, 236); */
+    filter: drop-shadow(0px 0px 15px #fff);
+    background: transparent;
+    cursor: pointer;
+
+}
+
+
+form{
+    /* background-color: aquamarine; */
+    padding: 1.5em;
+    border-radius: 10px;
+    /* border: 2px solid aqua; */
+box-shadow: 0px 0px 5px 0px aqua;
+
+} 
+
+.contect-form form .form-input{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: .8em;
+flex-direction: column;
+height: 45vh;
+max-width: 20vw;
+padding-top: 1.2em;
+
+}
+.contect-form form h2{
+    color:rgb(236, 240, 240);
+    font-size: 2em;
+}
+form .form-input input,textarea {
+    width: 98%;
+    height: 2.5em;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 3px solid aqua;
+    background: transparent;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 5px;
+
+}
+form .form-input textarea{
+    resize: none;
+    
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    /* font-size: 1.5em; */
+}
+.btn-contect{
+    color:rgb(255, 255, 255);
+    background: transparent;
+    width: 40%;
+    height: 6vh;
+    border: none;
+    border: 2px solid aqua;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-left: 1.3em;
+    font-size: 1.1em;
+}
+.btn-contect:hover{
+    background-color: aqua;
+    color: black;
+    box-shadow: 0px 0px 8px 0px rgb(228, 236, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        @media only screen and (max-width:1740px){
+            /* .about-container .about-left{
+                display: none;
+            
+            } */
+            .about-right{
+                width: 100%;
+                gap: 30px;
+                margin-top: 3em;
+            }
+            .info-ab{
+                width: 90%;
+            }
+           
+        }
+        
+        
+@media only screen and (max-width: 1000px){
+        nav{
+        /* background-color: aliceblue; */
+        }
+        .right-container li{
+        display: none;
+        }
+        .right-container ul .btn{
+            display: inline;
+        }
+        .right-container ul i{
+            font-size: 4em;
+            color: aqua;
+            background-color:rgb(20, 17, 30);
+            margin: 0;
+            padding: 0;
+        }
+
+}
+@media only screen and (max-width: 980px){
+.left{
+    z-index: 100;
+    top: 10%;
+    left:8%;
+}
+.left .hello{
+    font-size: 2.5em;
+}
+.left .name{
+}
+.left .typer{
+    font-size: 3em;
+}
+.left .info-personal{
+}
+.right{
+    
+margin-top: 4em;
+}
+}
+
+ @media only screen and (max-width: 1500px){
+    .left{
+         margin-top: 4%; 
+         padding-left: 3em;
+       } 
+       .left .info-personal{
+        font-size: 1.5em;
+       }
+       .left .typer{
+        font-size: 1.8em;
+       }
+       .social-media i{
+        font-size: 1.9em;
+       }
+       .right .image{
+        margin-top: 2.5em;
+       }
+} 
+ 
+@media only screen and (max-width: 1485px){
+  .contect-me{
+    width: 40%;
+  } 
+}
+@media only screen and (max-width: 1370px){
+   .left{
+    width: 55%;
+    
+   } 
+   .right{
+    width: 30%;
+   }
+   .right .image img{
+    width: 100%;
+    height: 100%;
+   }
+  
+   .social-media{
+    top: 49vh;
+    left: 5vw;
+    gap: 12px;
+   }
+   .social-media i{
+    font-size: 1.5em;
+    }
+    .home-container .name{
+        font-size: 2.7em;
+    }
+    .home-container .typer{
+        font-size: 1.5em;
+    }
+    .home-container .info-personal{
+        font-size: 1.5em;
+    }
+    .left .btn{
+        width: 25vw;
+        height: 7vh;
+    }
+    .about-info{
+        padding: 0px;
+        margin: 0px;
+    }
+    .about-right{
+        margin: 0;
+        padding: 10px;
+
+    }
+
+}
+@media only screen and (max-width:1270px){
+    
+    .contect-me{
+        width: 48%;
+    }
+    .contect-form{
+        width: 30%;
+    }
+   .btns-url button{
+    width: 10em;
+   }
+
+}
+@media only screen and (max-width: 1200px){
+    .skill-container{
+
+    }
+    .skill-container img{
+        height: 40vh;
+    }
+    .heading-skill{
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-right{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1188px){
+    
+    .social-media{
+        display: none;
+    }
+    .left{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .right{
+        width: 40%;
+    }
+    .right img{
+        width: 100%;
+        height: 105%;
+    }
+    .left .btn{
+        width: 35vw;
+        height: 8vh;
+    }
+}
+.heading-skill h1{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+.skill-container{
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+.image-skill{
+    padding-left: 10px;
+}
+.skill-lang .skill label{
+    font-size: 1.6em;
+}
+@media only screen and (max-width: 1100px){
+    .contect-us-container{
+        margin: 0;
+        padding: 10px;
+    }
+     .contect-form{
+    width: 45%;
+}
+
+    .contect-form form .form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8em;
+    flex-direction: column;
+    height: 55vh;
+    max-width: 100%;
+    
+    }
+    .contect-form form h2{
+        color:rgb(236, 240, 240);
+        font-size: 3em;
+    }
+    
+    
+}
+@media only screen and (max-width: 1000px){
+    
+    .left{
+        width: 50%;
+        padding: 0;
+    }
+    .right .image img{
+        width: 300px;
+        height: 300px;
+    }
+    .hem{
+        display: inline;
+        font-size: 0.8em;
+        cursor: pointer;
+    }
+    .right{
+        padding-left: 3em;
+    }
+    .left .btn{
+        width: 35vw;
+        margin-left: .2em;
+    }
+    .skill-container{
+        flex-direction: column;
+        width: 100%;
+     }
+    .heading-skill{
+        margin-top: 3em;
+    }
+    .skill-container img{
+        display:none;
+    }
+    .skill{
+        width: 60vw;
+        margin-left: 10vh;
+    }
+    
+
+    .skill-container{
+        width: 100%;
+        margin-top: -4em;
+    }
+    .skill-container .skill-lang{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .span{
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    }
+    .skill{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 1.2em;
+    }
+   
+}
+@media only screen and (max-width:950px){
+.contect-us-container{
+    gap: 0px;
+}
+.contect-me{
+    width: 52%;
+}
+.projects{
+    flex-direction: column;
+    padding: 2em;
+    gap: 15vh;
+}
+.projects2{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 2em;
+    gap: 2.5em;
+    margin-top: -3em;
+}
+.projects2 .pro-right2 img{
+    width: 90%;
+    height: 100%;
+}
+.pro-right2{
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+}
+.pro-left img{
+    width: 90%;
+    height: 100%;
+}
+.pro-left{
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+}
+
+.pro-left{
+
+    box-shadow: none;
+}
+.btns-url button{
+    width: 25vw;
+}
+.pro-right{
+    width: 90%;
+}
+}
+/* @media only screen and (max-width:913px){
+.about-info2{
+    height: 22vh;
+}
+.personal-info{
+    height: 22vh;
+}
+.contect-me{
+    height: 25vh;
+}
+.contect-form form .form-input{
+    height: 10%;
+    
+} */
+
+
+@media only screen and (max-width:880px){
+    .home-container{
+        flex-direction: column;
+        margin-bottom: -5vh;
+        padding-bottom: 0px;
+    }
+    .right{
+        display: none;
+    }
+  
+     .left{
+        width: 100%;
+     }
+     .left .btn{
+        width: 50%;
+        height: 58px;
+     }
+    .about-right{
+    flex-direction: column;
+    gap: 4em;
+}
+.info-ab p{
+    font-size: 1.5em;
+
+}
+
+.info-ab .per{
+    padding-left: 25%;
+}
+
+.contect-us-container{
+
+    flex-direction: column;
+    gap: 3em;
+}
+.contect-me{
+    display: none;
+}
+.contect-form{
+    width: 80%;
+}
+}
+
+
+@media only screen and (max-width:700px){
+.about-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-ab p {
+font-size: 20px;
+}
+.about-right h1{
+font-size: 3em;
+}
+.info-ab .per{
+    margin: 0;
+    padding-left: 0;
+}
+
+.skill-container{
+    width: 100%;
+    margin-top: -4em;
+}
+.skill-container .skill-lang{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.span{
+width: 100%;
+height: 25px;
+margin: 0;
+}
+.skill{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 1.2em;
+}
+}
+@media only screen and (max-width: 620px){
+
+    .right{
+        padding: 2em 25vw 0px 18vw;
+    }
+    .left .btn{
+        width: 60vw;
+        margin-left: 2em;
+    }
+    .skill-container img{
+        display:block;
+        width: 70vw;
+    }
+    .skill-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 2px;
+    }
+
+   .projects{
+    gap: 3em;
+   }
+}
+@media only  screen and (max-width:570px){
+    
+    .about-right p{
+        font-size: 1.3em;
+    }
+    .contect-me{
+        display: inline;
+        width: 95%;
+        font-size: 0.9em;
+        /* border: 1px solid gray; */
+    }
+    .contect-me h2 i{
+        margin:2px;
+    }
+    .contect-form{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:540px){
+.about-info2{
+    height: 45vh;
+}
+.personal-info{
+    height: 38vh;
+}
+.contect-me{
+    height: 37vh;
+}
+.btns-url button{
+    width: 8em;
+}
+}
+@media only screen and (max-width:514px){
+    .right{
+        margin: 0;
+        padding: 0;
+
+    }
+    .info-ab h1{
+        font-size: 1.9em;
+    }
+    .right .image img{
+        width: 350px;
+        height: 350px
+    }
+    
+  
+}
+
+
+  @media only screen and (max-width:488px){
+    .home-container{
+        margin-bottom: 1em;
+    }
+    .about-info2{
+        height: 50vh;
+    }
+    .skill-container{
+        margin-top: 1em;
+    }
+    .heading-skill{
+        margin-top: -0.1em;
+    }
+  } 
+
+  @media only screen and (max-width:442px){
+    
+    .info-ab{
+        width: 100%;
+        padding: 5px;
+    }
+    .info-ab{
+        font-size: 1em;
+       
+    }
+    .info-ab .per{
+        font-size: 1em;
+    }
+  }
+  .pro-left2 h1{
+    font-size: 1.8em;
+  }
+
+@media only screen and (max-width: 420px){
+.left{
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px;
+}
+.left .typer{
+    font-size: 1.4em;
+}
+.left .name{
+    font-size:2em;
+}
+.left .hello{
+    font-size: 1.5em;
+}
+    .right{
+        width: 100%;
+        padding-top: 2em;
+        padding-left: .01em;
+    }
+    .right img{
+        width: 100px;
+    }
+    .left .btn{
+        width: 60vw;
+        margin-left: 2em;
+
+    }
+    .heading-skill h1 {
+font-size: 1.2em;
+margin-left: -1em;
+margin-top: 1em;
+padding: 0;
+    }
+    .about-info2{
+height: 40vh;
+    }
+    .personal-info{
+        height: 35vh;
+        
+    }
+    .info-ab .per{
+        font-size: 1.4em;
+    }
+    .contect-me h2{
+        font-size: 1.3em;
+    }
+    .contect-me {
+        height: 36vh;
+    }
+    .contect-form .form h2{
+        font-size: 2.5em;
+    }
+    .pro-right h1{
+        font-size: 1.9em;
+        
+      }
+      .info-ab .per{
+        font-size: 1.1em;
+        padding-left: 1em;
+    }
+    
+}
+@media only screen and (max-width:413px){
+    .about-info2{
+ 
+        font-size: 1.03em;
+     
+        } 
+        .personal-info{
+       
+         font-size: 1.03em;
+        }
+        .contect-me{
+         height: 42vh;
+         padding-left: 5px;
+         padding-right: 5px;
+        }
+}
+@media only screen and (max-width:391px){
+ .contect-me{
+    height: 30vh;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+
+}
+@media only screen and (max-width:376px){
+   .left .typer{
+    font-size: 1.3em;
+   }
+    .about-info2{
+ 
+   height: 35vh;
+   font-size: .8em;
+
+   } 
+   .personal-info{
+    height: 30vh;
+    font-size: .8em;
+   }
+   .contect-me{
+    height: 42vh;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+   .right-container button i{
+    font-size: 3.5em;
+    background-color: rgb(13, 16, 29);
+   }
+
+}
+@media only screen and (max-width:350px){
+    .projects{
+        padding: 0;
+    }
+    .btns-url{
+        gap: 5px;
+    }
+    .projects2{
+        padding: 5px;
+    }
+}
+
+
